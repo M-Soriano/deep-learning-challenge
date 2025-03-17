@@ -52,10 +52,14 @@ Used keras-tuner to check  what would be the optimize neural network model.
 ![alt text](readme_files/3_3.png)
 ---
 
-Were you able to achieve the target model performance?
+
 - I was not able to achieve the target of 75% accuracy.
-Best I could achieve was 73%  in Model 2 and Model 3.
 
-Model 2 was less neurons than model 1 but was 1% higher accuracy. Model 3 was more layer then model 2 but accuracy are almost the same.(.04% difference).
+- Best I could achieve was 73%  in Model 2 and Model 3.
 
+---
+- Model 2 was less neurons than model 1 but was 1% higher accuracy.
+- Model 3 was more layer then model 2 but accuracy are almost the same.(.04% difference).
+
+---
 Summary: With the results of the 3 models and the keras-tuner results, it seems that for the current preprocess data, there may be a cap of 73% accuracy. Maybe with preprocessing data that has a lower cutoff value for CLASSIFICATION, the accuracy might improve. 
